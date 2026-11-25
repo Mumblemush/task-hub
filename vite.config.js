@@ -6,6 +6,7 @@ import { fileURLToPath, URL } from 'node:url'
 import viteCompression from 'vite-plugin-compression'
 
 export default defineConfig({
+  base: '/task-hub/',
   plugins: [
     vue(),
     tailwindcss(), // 激活 Tailwind v4 引擎
